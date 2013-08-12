@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:700,900' rel='stylesheet' type='text/css'>
+	<style>
+	html,body{
+		width:100%;
+		height:100%;
+		background-color: #eeefff;background-color: bebebe;background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMTUwIDE1MCc+Cgk8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCQk8ZmVUdXJidWxlbmNlIHR5cGU9J3R1cmJ1bGVuY2UnIGJhc2VGcmVxdWVuY3k9Jy43JyByZXN1bHQ9J2Z1enonIG51bU9jdGF2ZXM9JzInIHN0aXRjaFRpbGVzPSdzdGl0Y2gnLz4KCQk8ZmVDb21wb3NpdGUgaW49J1NvdXJjZUdyYXBoaWMnIGluMj0nZnV6eicgb3BlcmF0b3I9J2FyaXRobWV0aWMnIGsxPScwJyBrMj0nMC44NCcgazM9Jy0wLjE3JyBrND0nLjAxJyAvPgoJPC9maWx0ZXI+Cgk8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDAwMDAwJy8+Cgk8cmVjdCB4PSctMSUnIHk9Jy0xJScgd2lkdGg9JzEwMiUnIGhlaWdodD0nMTAyJScgZmlsbD0nI2JlYmViZScgZmlsdGVyPSd1cmwoI24pJyBvcGFjaXR5PScxJy8+Cjwvc3ZnPg==');
+		/** To edit this background, follow this link:
+http://svgeneration.com/generate/Cross-Stripes Grunge?size=7.1&background=eeefff&stripe-width=1.7&stripe1=fafafa&stripe2=f5f5f5&grunge=0.23&
+*/
+
+
+	}
+	section{
+
+		width:100%;
+	}
+	.full {
+		min-height: 100%;
+	}
+	#cover {
+		background:url(background.jpg) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;
+	}
+	#cover h1{
+		color:black;
+		font-family:"Lato";
+		font-weight: 900;
+		font-size:3.8em;
+		line-height: 1em;
+	}
+	#header {
+		position: absolute;
+		height:30px;
+		bottom:0px;
+		padding:0;
+		left:15px;
+		width:97%;
+		color:white;
+		text-shadow: 1px 1px 1px #000;
+	}
+	.whiteShadow{
+		color:white;
+		text-shadow: 1px 1px 1px #000;
+	}
+
+	.container {
+		width:950px;
+		background:white;
+		padding:30px;
+		/*box-shadow:0px 4px 15px #5C5C5C;*/
+		margin-bottom:4em;
+	}
+	#_nav{
+		list-style:none;
+		display:inline-block;
+		clear:none;
+	}
+	#_nav li {
+		float:left;
+		padding-left:25px;
+	}
+	#_nav li a {
+		color:white;
+	}
+	.gray{
+		color:gray;
+	}
+	h2,h3{
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('MonoSocialIconsFont-1.10.eot');
+    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+a.symbol {
+    background: #9f9f9f;
+    padding: 7px 5px 3px 5px;
+    color: white;
+    text-decoration: none;
+}
+#contact {
+	font-size:2em;
+	color:black;
+	text-shadow:none;
+	font-family: "Lato";
+	padding-left:28px;
+}
+#contact a {
+	color:rgba(70,174,189,0.8);
+	transition: color .3s;
+	text-shadow:none;
+}
+#contact a:hover{
+	color:black;
+	text-decoration: none;
+}
+.symbol{
+	font-size:2.2em!important;
+}
+.symbol:hover{
+	text-decoration: none;
+}
+a{
+	color:rgba(70,174,189,0.8);
+}
+	</style>
+</head>
+<body>
+	<section id="cover" class="full">
+		<div style="background:rgba(255,255,255,0.85);width:300px; height:100%; padding:3em; padding-top:0; padding-bottom:0;">
+			<br/><div style="padding-bottom:5px;border-bottom:10px solid rgba(70,174,189,0.8);"><h1 style="">REMY<br/>SCHWARTZ</h1></div>
+			<br/><br/>
+			<p class="lead">Remy Schwartz is a producer and reporter living in New York City. He graduated from Hampshire College in May 2013 with a BA in Journalism and Media Studies. He produces video, radio, writing, and web. He grew up in Chicago, Illinois, where he developed an affinity for large dogs and city biking.</p>
+			<!-- <div id="contact">
+
+			</div> -->
+		</div><br/>
+
+		<div id="header">
+			<span id="contact">
+				<a target="_blank" href="mailto:schwartz.remy@gmail.com"><span class='symbol'>circleemail</span></a>
+				<a target="_blank" href="http://www.linkedin.com/pub/remy-schwartz/5a/962/4b1"><span class='symbol'>circlelinkedin</span></a>
+				<a target="_blank" href="https://twitter.com/TheRemySchwartz"><span class='symbol'>circletwitterbird</span></a>
+			</span>
+
+			<ul id="_nav" class="pull-right">
+
+				<li><a href="#resume">resume</a></li>
+				<li><a href="#portfolio">portfolio</a></li>
+				<li><a href="#colaboration">collaboration</a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section class="container" id="resume" style="margin-top:80px;">
+		<div>
+			<h2>Bachelors of the Arts, <a href="http://hampshire.edu/" target="_blank">Hampshire College</a></h2>
+			<h3 class="gray">Amherst, MA, May 2013</h3>
+
+			<p class="lead">I studied the evolution of journalism and digital storytelling over a variety of mediums.</p>
+		</div>
+		<hr/>
+
+		<div>
+			<h2>Video/Web Producer, Hampshire College Communications Office</h2>
+			<h3 class="gray">Amherst, MA &bull; May &mdash; August 2013</h3>
+			<p class="lead">I worked with a cinematographer and an editor to produce nine short promotional videos for the college to distribute on the web. I also worked with a programmer to design and develop a website to feature video profiles of recent alumni. I also worked as a social media consultant and helped redevelop their online strategy.</p>
+		</div>
+
+		<div>
+			<h2>Co-Founder/Managing Editor, <i><a href="http://switchboardmag.com/" target="_blank">Switchboard Magazine</a></i></h2>
+			<h3 class="gray">Amherst, MA &bull; September 2012 &mdash; May 2013</h3>
+
+			<p class="lead">
+			Switchboard Magazine was a collaborative thesis project I co-founded and developed over the course of my senior year at Hampshire College. I worked with my partner Duncan Sullivan to develop the tone, content model, and operational structure of the magazine. I oversaw a designer and programmer throughout the construction of the site and I functioned as the Managing Editor for the five months Switchboard published content. I produced or co-produced more than 30 multimedia during that period.</p>
+		</div>
+		<div>
+			<h2>Production Consultant, <a href="http://nolancollaborative.com/" target="_blank">Nolan Collaborative Post House</a></h2>
+			<h3 class="gray">Chicago, IL &bull; December 2012 &mdash; January 2013</h3>
+			<p class="lead">I developed a new producer position and worked to re-organize editing workflows. Interviewed interns and applicants for producer and finishing editor positions. I also researched and developed strategy for producing smaller-scale web-video spots.</p>
+		</div>
+		<div>
+			<h2>Production Intern, <a href="http://themoth.org" target="_blank">The Moth</a></h2>
+			<h3 class="gray">New York, NY &bull; Fall 2012</h3>
+			<p class="lead">I researched venues, talent, and possible organizational partners in new cities. I also organized incoming media releases and handled general query correspondence with Moth fans and members. I worked on a variety of different production tasks at live events in New York City throughout my time interning.</p>
+		</div>
+		<div>
+			<h2>Studio Intern/Contributor, <a href="http://vocalo.org" target="_blank">Vocalo.org</a> / <a href="http://wbez.org" target="_blank">Chicago Public Media</a></h2>
+			<h3 class="gray">Chicago, IL &bull; June &mdash; December 2012</h3>
+			<p class="lead">I worked as a studio intern for The Morning AMp, a daily news talk show on Vocalo 89.5 FM. My tasks ranged from screening calls, writing blog posts, and booking guests to reporting stories and recording interviews. I reported multiple stories for air and filled in as a guest host on two different occasions. After the conclusion of my internship I worked as a contributing producer and reporter to produce guest segments and report feature stories.</p>
+		</div>
+		<hr/>
+
+		<div>
+			<h2>Skills</h2>
+			<h3 class="gray">Radio:</h3>
+			<p class="lead">Basic audio-recording proficiency in the field/in-studio, comfortable in Reaper/Vegas/Audacity, experienced interviewer, experience writing for the ear, familiarity with AP Style, accustomed to deadlines</p>
+			<br/>
+			<h3 class="gray">Digital:</h3>
+			<p class="lead">
+				Strong social media proficiency/experience developing web strategy, experience producing with web developers/familiarity with HTML/CSS, Final Cut Pro 7, Photoshop, Illustrator, InDesign, Microsoft Office, Fastest email-er in the East
+			</p>
+			<br/>
+			<h3 class="gray">Human</h3>
+			<p class="lead">
+				Creative, critical thinker, imaginative, fast learner, well-organized, team-worker, effective-researcher, strong verbal and written communication skills, experienced public speaker
+			</p>
+		</div><br/>
+		<div style="text-align:center">
+			<a href="mailto:schwartz.remy@gmail.com">schwartz.remy@gmail.com</a> || 312.659.4363
+		</div>
+	</section>
+
+	<section class="container" id="portfolio">
+		<div class="row-fluid">
+			<div class="span6">
+				<iframe src="http://player.vimeo.com/video/71607094?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="440" height="247" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p style="margin-bottom:0;" class="lead">Alumni Profile for Hampshire College, 2013</p>
+				<i>I co&ndash;produced this video as part of four piece series. I scouted location, consulted on shots and framing, conducted the interview, and co&ndash;edited this video.</i>
+			</div>
+			<div class="span6">
+				<iframe src="http://player.vimeo.com/video/71607303?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="440" height="248" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p style="margin-bottom:0;" class="lead">Eugene Mirman Interview for Switchboardmag.com, 2013</p>
+				<i>I produced and directed this interview with comedian Eugene Mirman. I cooridinated booking with his agent, hired a camera&ndash;operator in New York, directed visuals, conducted the interview, and edited the video. </i>
+			</div>
+		</div>
+		<br/>
+		<div class="row-fluid">
+			<div class="span6">
+				<iframe src="http://player.vimeo.com/video/71607304?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="440" height="248" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p style="margin-bottom:0;" class="lead">Tiny House Tour for Switchboardmag.com, 2013</p>
+				<i>I co&ndash;produced this tour with with a cinematographer. I interviewed and guided the talent, oversaw shooting, coordinated music for co&ndash;edited this video.</i>
+			</div>
+			<div class="span6">
+				<iframe src="http://player.vimeo.com/video/71609426?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="440" height="248" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p style="margin-bottom:0;" class="lead">The UMass Commerce Documentary, 2012</p>
+				<i>I produced, shot, and edited this documentary with another mentor in the Springfield, MA High School of Commerce mentorship program. I spent four days shooting video with this group of high school and college students as they travelled to and explored Washington D.C. </i>
+			</div>
+		</div>
+		<br/><br/><br/>
+		<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F66419355&amp;color=ff9933&amp;auto_play=false&amp;show_artwork=true"></iframe>
+		<i>I produced and reported this feature story for Vocalo.org and Chicago Public Media's 2012 Presidential Election coverage. I interviewed a number of campaign officials, professors, and academics to explore the role of data mining in electoral politics. This story played as part of Vocalo's Election Day Coverage, hear it above at 3:41.</i>
+		<br/><br/><br/>
+		<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103588491&amp;color=ff9933&amp;auto_play=false&amp;show_artwork=true"></iframe>
+		<i>I told this story live at the Moth Grandslam at Park West in Chicago in 2011. I was competing against nine other featured storytellers in an event hosted by NPR's Peter Sagal. The theme of the night was &ldquo;Identity Crisis.&rdquo; </i>
+
+		<br/><br/><br/><br/>
+
+		<div class="row-fluid">
+			<div class="span4"><a target="_blank" href="http:switchboardmag.com"><img src="sb.png"/></a></div>
+			<div class="span4"><a target="_blank" href="http:switchboardmag.com/outside-the-wire"><img src="outside.png"/></a></div>
+			<div class="span4"><a target="_blank" href="http:alumprofiles.hampshire.edu"><img src="alums.png"/></a></div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span4">
+				<p style="margin-bottom:0;" class="lead"><a target="_blank" href="http:switchboardmag.com">Switchboard Magazine</a></p>
+				<i>I worked with a graphic designer and web developer to build Switchboard's brand from the ground up. We worked through a number of different designs and looks before settling on the magazine's final aesthetic. I advised on everything from the logo to the article structure, the layout, the sponsorship section, the archive, and a variety of special feature pages. </i>
+			</div>
+			<div class="span4">
+				<p style="margin-bottom:0;" class="lead"><a target="_blank" href="http:switchboardmag.com/outside-the-wire">HTML 5 Site: <i>'Outside the Wire'</i> Feature</a></p>
+				<i>I worked with a photographer and web developer to design this article, which was the culminating feature of my tenure at <i>Switchboard</i>. We built the page around the written feature and the multimedia content so that the functionality complimented the story. </i>
+			</div>
+			<div class="span4">
+				<p style="margin-bottom:0;" class="lead"><a target="_blank" href="http:alumprofiles.hampshire.edu">HTML 5 Site: Hampshire College Alumni Profiles</a></p>
+				<i>In addition to producing all four videos, I worked with a developer to design the functionality and aesthetic of this website. I co&ndash;ordinated with Hampshire's graphic designer and web content manager to build a fresh&ndash;looking website that still fit within the college's visual brand.</i>
+			</div>
+		</div>
+	</section>
+
+	<section class="container" style="height: auto;" id="colaboration">
+		<div class="row-fluid">
+			<div class="span6">
+				<img class="img-polaroid" src="drcollab.JPG"/>
+			</div>
+			<div class="span6">
+				<p style="margin-bottom:0;" class="lead">The "Switchboard" Team</p>
+				<i>Remy has worked with Duncan Sullivan to produce video, photo, and web work over the last two years. The two collaborated most extensively on Switchboard Magazine, the online multimedia magazine they created together. The pair has freelanced as a production team on multiple projects and work tightly to compliment each others' skills. Check out his stuff on <a href="duncanmsullivan.com">his website</a>. </i>
+				<br/><br/>
+				<i>This site was built and co-designed by Zeke Nierenberg, who's collaborated with Remy on a number of web projects. He's the best out there, <a href="http://zeke.io">check out his website.</a></i>
+			</div>
+		</div>
+	</section>
+
+<br/>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script>
+	var 	$document		= $(document)
+			,	scroll 		= 0
+			,	barTop 		= 40
+			,	$window		= $(window)
+			,	$welcome	= $("#cover")
+			,	frontScreen = "up"
+			,	setFrontFixed=function(){
+					//the func that is run when you are down on the site
+					var cssObj = {
+						top: -1 * ($window.height() - barTop),
+						position:"fixed"
+					};
+					$("#name").addClass("whiteShadow");
+					$welcome.css(cssObj);
+					$("section:nth-child(2)").css({"margin-top":$window.height() + 80});
+					//$window.scrollTop(cssObj.top * -1);
+					frontScreen = "down";
+				}
+			,	setFrontStatic=function(){
+					$("#name").removeClass("whiteShadow");
+					$welcome.css({position:"static"});
+					$("section:nth-child(2)").css("margin-top",80);
+					frontScreen = "up";
+				};
+		if(window.location.href.split("#").length === 0)
+			setFrontFixed();
+
+		$window.scroll(function(event){
+			scroll = $window.scrollTop();
+			if($window.scrollTop() > ($window.height() - barTop)){
+				if(frontScreen === "up")
+					setFrontFixed();
+			}else{
+				if(frontScreen === "down")
+					setFrontStatic();
+			}
+		});
+
+		// $("a").click(function(e){
+  //   		var myThis = this;
+  //   		var attr = $(this).attr("href");
+  //   		if(($(this).attr("href").substr(0,1) == "#")){
+  //   			e.preventDefault();
+  //   			$(".active").removeClass("active");
+  //   			$(myThis).parents("li").addClass("active");
+  //   			// console.log($(attr).position().top);
+  //   			$("body,html").animate({scrollTop:$(attr).position().top + 100},500);
+  //   			setTimeout(function(){window.location=$(myThis).attr("href");},500);
+  //   		}
+  //   	});
+	</script>
+</body>
+</html>
